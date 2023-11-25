@@ -1,0 +1,21 @@
+[package]
+name = "one_dex-swap-proxy"
+version = "0.0.0"
+authors = ["you"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/one_dex_swap_proxy.rs"
+
+[dependencies.multiversx-sc]
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+
+[dev-dependencies.multiversx-sc-scenario]
+git = "https://github.com/newtmex/mx-sdk-rs.git"
+branch = "hackathon-feat"
+

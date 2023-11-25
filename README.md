@@ -1,0 +1,1 @@
+This project is an attempt to build a OneDex Proxy that SC developers can use to integrate OneDex to their SCs
